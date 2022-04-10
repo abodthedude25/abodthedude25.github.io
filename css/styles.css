@@ -11510,7 +11510,7 @@ html {
 .paragraph-left{
     justify-content: center;
     text-align: justify;
-    /* text-indent: 5rem; */
+    /* text-indent: 5rem each-line; */
 }
 
 .modal-font-header{
