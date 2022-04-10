@@ -11510,7 +11510,7 @@ html {
 .paragraph-left{
     justify-content: center;
     text-align: justify;
-    text-indent: 5rem each-line;
+    /* text-indent: 5rem; */
 }
 
 .modal-font-header{
@@ -11521,4 +11521,12 @@ html {
 
 ul{
     text-align: justify;
+}
+
+.carousel-item {
+	transition: -webkit-transform 0.35s ease;
+	transition: transform 0.35s ease;
+	transition: transform 0.35s ease, -webkit-transform 0.35s ease;
+	-webkit-backface-visibility:visible;
+	backface-visibility: visible;
 }
