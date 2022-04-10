@@ -11514,9 +11514,10 @@ html {
     text-indent: 5rem each-line;
 }
 
-em{
+.modal-font-header{
     justify-content: center;
     text-align: center;
+    font-size: 150%;
 }
 
 ul{
