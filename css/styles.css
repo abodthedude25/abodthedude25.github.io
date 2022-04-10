@@ -11478,13 +11478,13 @@ html {
   opacity: 1;
 }
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .portfolio-modal .btn-close {
   color: #1abc9c;
   font-size: 2rem;
-  padding: 1rem;
+  padding: 2rem;
 }
 .portfolio-modal .portfolio-modal-title {
   font-size: 2.25rem;
@@ -11506,4 +11506,19 @@ html {
 
 .copyright {
   background-color: #1a252f;
+}
+.paragraph-left{
+    justify-content: center;
+    text-align: justify;
+    text-justify: inter-word;
+    text-indent: 5rem each-line;
+}
+
+em{
+    justify-content: center;
+    text-align: center;
+}
+
+ul{
+    text-align: justify;
 }
