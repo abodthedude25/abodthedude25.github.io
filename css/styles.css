@@ -11510,7 +11510,6 @@ html {
 .paragraph-left{
     justify-content: center;
     text-align: justify;
-    text-justify: inter-word;
     text-indent: 5rem each-line;
 }
 
