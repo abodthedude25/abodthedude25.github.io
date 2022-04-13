@@ -637,6 +637,23 @@
                                         then you will get a lot of that in this course. Be assured, you will <strong>walk in the path of electrons</strong> and completely see and understand why they operate in the way they do in 
                                         semiconductors, through mathematical derivations and physical phenomenons. Also, have you been hearing a lot of buzz about <strong>transistors and why they are the source of modern 
                                         technology?</strong> Well, you also get a solid introduction to what and how transistors work under the hood on top of everthying else, in ENEL 361. 
+                                    
+                                        <p class="modal-font-header"><em class="fa-solid fa-plug"></em> <strong><em>Relation to Real-Life</em></strong> </p>
+                                        &emsp;&emsp;&emsp;&emsp;Completing the <strong>ADC and DAC lab</strong> provided me with the theoratical and practical experience of <strong>how ADC's work under the hood.</strong>
+                                        This was useful, especially to my team, becuase our tuner device used an analog comparator to analyze the input signal's frequency. In our hands-on lab 
+                                        <strong></strong>we built a slope(integrating) ADC.</strong> We experimented with the different parameters of the circuit, like the counter period, and <strong>observed the effect on the output of the ADC using Matlab.</strong>
+                                        <br>&emsp;&emsp;&emsp;&emsp;The is the basic idea behind the so-called single-slope, or integrating ADC. Instead of using a
+                                        DAC with a ramped output, we use an op-amp circuit called an integrator to generate a sawtooth
+                                        waveform which is then <strong>compared against the analog input by a comparator.</strong> The time it takes for
+                                        the sawtooth waveform to exceed the input signal voltage level is measured by means of a <strong>digital
+                                        counter</strong> clocked with a precise-frequency square wave (usually from a crystal oscillator). 
+                                        <br>&emsp;&emsp;&emsp;&emsp;Testing this design with different input frequencies showed how vulnerable, and unapplicable this ADC archeticture was, as it <strong>didn't perform consistently with varying frequencies.</strong>
+                                        With the digital ramp ADC, the clock frequency had no effect on
+                                        conversion accuracy, only on update time. In this circuit, since the rate of integration and the rate
+                                        of count are independent of each other, variation between the two is inevitable as it ages, and
+                                        will result in a loss of accuracy. The only good thing to say about this circuit is that <strong>it avoids the
+                                        use of a DAC, which reduces circuit complexity.</strong> This showed me that <strong>some devices should only be utilitized for a very niche application,</strong> like a small range of input frequencies.
+
                                     </p>
                                     <div class="modal-font-header">
                                         <button style="font-size:115%" class="btn btn-primary" data-bs-dismiss="modal">
